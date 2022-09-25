@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       BODY {
+  padding: 10px;
+  background: white;
+  }
+
+  .flex-container_general{
+    padding: 10px;
+  background: rgb(187, 182, 182);
+  }
+
+  .flex-container_main{
+    display: flex;
+    justify-content: baseline;
+  }
+
+.flex-container{
+  padding: 10px;
+  margin: 5px;
+  background: rgb(244, 235, 192);
+  border-radius: 10px;
+  }
+
+  .flex-container_man{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+.flex-item{
+    width: 44vh;
+    height: 5vh;
+  margin: 10px;
+  padding: 5px;
+  background: rgb(240, 195, 99);
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  }
+
+  .flex-item_1{
+    width: 20vh;
+    height: 5vh;
+    margin: 10px;
+  padding: 5px;
+  background: rgb(240, 195, 99);
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  }
+
+  .flex-container_nav{
+    padding: 10px;
+    margin: 5px;
+  background: rgb(134, 190, 131);
+  border-radius: 10px;
+  }
+
+  .flex-container_fut{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  background: rgb(151, 149, 136);
+  border-radius: 10px;
+  }
+
+  .flex-item_fut{
+    margin: 10px;
+  padding: 5px;
+  background: rgb(247, 244, 239);
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container_general">
+        <h1>Шапка страницы</h1>
+        <main class="flex-container_main">
+    <div class="flex-container">
+        <h2>Основная часть</h2>
+        <div class="flex-container_man">
+        <div class="flex-item_1">
+        Ещё 1
+        </div>
+        <div class="flex-item_1">
+        Ещё 2
+          </div>
+    </div>
+    <div class="flex-item">
+        Ещё 3
+        </div>
+        </div>
+
+        <div class="flex-container_nav">
+            Боковая область
+            </div>
+        </main>
+
+        <footer class="flex-container_fut">
+            <div class="flex-item_fut">
+                Секция футера 1
+                </div>
+                <div class="flex-item_fut">
+                Секция футера 2
+                </div>
+                <div class="flex-item_fut">
+                Секция футера 3
+                  </div>
+                <div class="flex-item_fut">
+                Секция футера 4
+                </div> 
+        </footer>
+</body>
+</html>
